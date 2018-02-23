@@ -221,10 +221,10 @@ In Chapter 1, we briefly mentioned the "truthy" and "falsy" nature of values: wh
 
 The specific list of "falsy" values in JavaScript is as follows:
 
-* `""` (empty string)
-* `0`, `-0`, `NaN` (invalid `number`)
-* `null`, `undefined`
-* `false`
+- `""` (empty string)
+- `0`, `-0`, `NaN` (invalid `number`)
+- `null`, `undefined`
+- `false`
 
 Any value that's not on this "falsy" list is "truthy." Here are some examples of those:
 
@@ -233,7 +233,7 @@ Any value that's not on this "falsy" list is "truthy." Here are some examples of
 * `true`
 * `[ ]`, `[ 1, "2", 3 ]` (arrays)
 * `{ }`, `{ a: 42 }` (objects)
-* `function foo() { .. }` (functions)
+* `function foo() { .. }` (functions)**
 
 It's important to remember that a non-`boolean` value only follows this "truthy"/"falsy" coercion if it's actually coerced to a `boolean`. It's not all that difficult to confuse yourself with a situation that seems like it's coercing a value to a `boolean` when it's not.
 
